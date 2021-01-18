@@ -1,0 +1,65 @@
+﻿@model IEnumerable<PedidosGarcomMvc.Models.Pedido>
+
+@{
+    ViewData["Title"] = "Pedidos";
+}
+
+<h2>Registro de pedidos</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-default">Novo Pedido</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Mesa)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Solicitante)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Prato)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantidade_Prato)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bebida)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantidade_Bebida)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mesa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Solicitante)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Prato)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantidade_Prato)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bebida)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantidade_Bebida)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-success">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,54 @@
+﻿@model PedidosGarcomMvc.Models.Pedido
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Pedido</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Mesa)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Mesa)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Solicitante)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Solicitante)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Prato)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Prato)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Quantidade_Prato)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Quantidade_Prato)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Bebida)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Bebida)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Quantidade_Bebida)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Quantidade_Bebida)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
