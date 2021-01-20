@@ -59,7 +59,7 @@ using PedidosGarcomMvc.Models;
             WriteLiteral("\r\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"\\css\\layout.css\">\r\n\r\n    ");
             EndContext();
             BeginContext(126, 416, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c015098c33444b48b1808dffb09baa1c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6899e5bfdd944107ac0ef04f232db1b6", async() => {
                 BeginContext(132, 2, true);
                 WriteLiteral("\r\n");
                 EndContext();

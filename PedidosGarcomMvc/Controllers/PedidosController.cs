@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using PedidosGarcomMvc.Data;
 using PedidosGarcomMvc.Models;
-using PedidosGarcomMvc.Services;
+
 
 namespace PedidosGarcomMvc.Controllers
 {
@@ -56,16 +56,14 @@ namespace PedidosGarcomMvc.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        //public IActionResult Create(Pedido pedido)
-        //{
-        //    _pedidoService.Insert(pedido);
-        //    return RedirectToAction(nameof(Index));
-        //}
+
         public async Task<IActionResult> Create([Bind("Id,Mesa,Solicitante,Prato,Quantidade_Prato,Bebida,Quantidade_Bebida")] Pedido pedido)
         {
             if (ModelState.IsValid)
             {
                 _context.Add(pedido);
+                _context.Copa.Add(new Copa(0, pedido.Mesa, pedido.Bebida, pedido.Quantidade_Bebida));
+                _context.Cozinha.Add(new Cozinha(0, pedido.Mesa, pedido.Prato, pedido.Quantidade_Prato));
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }

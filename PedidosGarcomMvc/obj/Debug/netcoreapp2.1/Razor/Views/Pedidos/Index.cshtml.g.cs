@@ -70,7 +70,7 @@ using PedidosGarcomMvc.Models;
             WriteLiteral("\r\n<h2>Registro de pedidos</h2>\r\n\r\n<p>\r\n    ");
             EndContext();
             BeginContext(140, 62, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c791ade27f5f4de3a65f540cf24a097e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ebb680a2bdad40979f2e73fb614212bf", async() => {
                 BeginContext(187, 11, true);
                 WriteLiteral("Novo Pedido");
                 EndContext();
@@ -221,7 +221,7 @@ using PedidosGarcomMvc.Models;
             WriteLiteral("\r\n            </td>\r\n            <td>\r\n                ");
             EndContext();
             BeginContext(1647, 79, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "19d5f54533ce426ea68ef3b0d54002e6", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "91465768547e43dfbabf7360da31ea10", async() => {
                 BeginContext(1716, 6, true);
                 WriteLiteral("Editar");
                 EndContext();
@@ -257,7 +257,7 @@ using PedidosGarcomMvc.Models;
             WriteLiteral(" |\r\n                ");
             EndContext();
             BeginContext(1746, 84, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "40710054834f460e9c933a511d905c03", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "77e205b8595745568d1b479635df7abb", async() => {
                 BeginContext(1818, 8, true);
                 WriteLiteral("Detalhes");
                 EndContext();
@@ -293,7 +293,7 @@ using PedidosGarcomMvc.Models;
             WriteLiteral(" |\r\n                ");
             EndContext();
             BeginContext(1850, 81, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bd21cbcb06ad47c8b4cd3ac8fccc765a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "118a8f23f7b847a7b9571cb393a11115", async() => {
                 BeginContext(1920, 7, true);
                 WriteLiteral("Deletar");
                 EndContext();

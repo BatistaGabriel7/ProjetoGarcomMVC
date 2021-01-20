@@ -11,7 +11,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using PedidosGarcomMvc.Data;
-using PedidosGarcomMvc.Services;
+
 
 namespace PedidosGarcomMvc
 {
@@ -43,11 +43,6 @@ namespace PedidosGarcomMvc
 
             services.AddScoped<SeedingService>();//registra o serviço no sistema de gestão de independência da aplicação
 
-            services.AddScoped<CopaService>();
-
-            services.AddScoped<CozinhaService>();
-
-            services.AddScoped<PedidoService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
