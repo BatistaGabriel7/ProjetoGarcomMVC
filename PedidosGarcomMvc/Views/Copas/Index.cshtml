@@ -1,4 +1,4 @@
-﻿@model IEnumerable<PedidosGarcomMvc.Models.Copa>
+﻿@model IEnumerable<PedidosGarcomMvc.Models.Pedido>
 @{
     ViewData["Title"] = "Copa";
 }
@@ -15,7 +15,7 @@
                 @Html.DisplayNameFor(model => model.Bebida)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Quantidade)
+                @Html.DisplayNameFor(model => model.Quantidade_Bebida)
             </th>
             <th></th>
         </tr>
@@ -31,7 +31,7 @@
                     @Html.DisplayFor(modelItem => item.Bebida)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Quantidade)
+                    @Html.DisplayFor(modelItem => item.Quantidade_Bebida)
                 </td>
             </tr>
         }

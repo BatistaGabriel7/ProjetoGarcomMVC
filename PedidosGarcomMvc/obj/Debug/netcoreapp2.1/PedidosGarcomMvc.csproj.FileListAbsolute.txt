@@ -43,8 +43,4 @@ C:\Users\batis\OneDrive\Documentos\Visual Studio 2019\Projects\PedidosGarcomMvc\
 C:\Users\batis\OneDrive\Documentos\Visual Studio 2019\Projects\PedidosGarcomMvc\PedidosGarcomMvc\obj\Debug\netcoreapp2.1\PedidosGarcomMvc.genruntimeconfig.cache
 C:\Users\batis\OneDrive\Documentos\Visual Studio 2019\Projects\PedidosGarcomMvc\PedidosGarcomMvc\obj\Debug\netcoreapp2.1\PedidosGarcomMvc.csproj.CopyComplete
 C:\Users\batis\OneDrive\Documentos\Visual Studio 2019\Projects\PedidosGarcomMvc\PedidosGarcomMvc\obj\Debug\netcoreapp2.1\PedidosGarcomMvc.csprojAssemblyReference.cache
-C:\Users\batis\OneDrive\Documentos\Visual Studio 2019\Projects\PedidosGarcomMvc\PedidosGarcomMvc\obj\Debug\netcoreapp2.1\Razor\Views\Copas\Create.cshtml.g.cs
-C:\Users\batis\OneDrive\Documentos\Visual Studio 2019\Projects\PedidosGarcomMvc\PedidosGarcomMvc\obj\Debug\netcoreapp2.1\Razor\Views\Copas\Delete.cshtml.g.cs
-C:\Users\batis\OneDrive\Documentos\Visual Studio 2019\Projects\PedidosGarcomMvc\PedidosGarcomMvc\obj\Debug\netcoreapp2.1\Razor\Views\Copas\Details.cshtml.g.cs
-C:\Users\batis\OneDrive\Documentos\Visual Studio 2019\Projects\PedidosGarcomMvc\PedidosGarcomMvc\obj\Debug\netcoreapp2.1\Razor\Views\Copas\Edit.cshtml.g.cs
 C:\Users\batis\OneDrive\Documentos\Visual Studio 2019\Projects\PedidosGarcomMvc\PedidosGarcomMvc\obj\Debug\netcoreapp2.1\Razor\Views\Copas\Index.cshtml.g.cs
